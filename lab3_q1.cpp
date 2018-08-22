@@ -1,17 +1,18 @@
-#include<iostream>
+// first include the library
+#include <iostream>
 using namespace std;
+// write the function
 int main(){
+// declaration of data types
 int a;
 float b;
+char c;
 bool d;
-long int c;
-char k;
-
-cout<<"the size of a is"<<sizeof(a)<<"\n";
-cout<<"the size of b is "<<sizeof (b)<<"\n";
-cout<<"the size of d is "<<sizeof (d)<<"\n";
-cout<<"the size of c is "<<sizeof (c)<<"\n";
-cout<<"the size of k is "<<sizeof (k)<<"\n";
-return 0;
+double e;
+//print the results
+cout << " size of int is "<< sizeof (a) <<endl;
+cout << " size of float is "<< sizeof (b) <<endl;
+cout << " size of char is "<< sizeof (c) <<endl;
+cout << " size of bool is "<< sizeof (d) <<endl;
+cout << " size of double is "<< sizeof (e) <<endl;
 }
-

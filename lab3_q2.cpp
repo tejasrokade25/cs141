@@ -1,23 +1,24 @@
-#include<iostream>
+// include the library
+#include <iostream>
 using namespace std;
-
+// write the function
 int main(){
+// declare the variables
+int a;
+float b;
+int c;
+// assigning the values
+a=3;
+b=4.5;
+c=2;
 
-int a=7;
-int b=5;
-int sum =a+b;
-int product =a*b;
-int difference =a-b;
-int quotient =a/b;	
-
-cout<<"a is 7"<<endl;
-cout<<"b is 5"<<endl;
-
-cout<<"Their sum is"<<sum<<endl;
-cout<<"Their product is "<<product<<endl;
-cout<<"Their difference is "<<difference<<endl;
-cout<<"a divided by b is "<<quotient<<endl;
-
-return 0;
+// printing the result
+cout << "the sum is " <<a+b <<endl;
+cout << "the difference is "<< a-b << endl;
+cout <<  "the product is " << a*b <<endl;
+cout << "the quotient is " << a/b <<endl;
+cout << "the modulus is " << a%c << endl;
 }
+
+
 
